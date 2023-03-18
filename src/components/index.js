@@ -1,4 +1,5 @@
 import Navbar from "./Navbar"
 import HeroSection from "./HeroSection"
+import TestimonialSection from "./TestimonialSection"
 
-export { Navbar, HeroSection }
+export { Navbar, HeroSection, TestimonialSection }

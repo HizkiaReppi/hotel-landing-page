@@ -1,9 +1,10 @@
-import { Navbar, HeroSection } from "./components"
+import { Navbar, HeroSection, TestimonialSection } from "./components"
 const App = () => {
   return (
     <div>
       <Navbar />
       <HeroSection/>
+      <TestimonialSection/>
     </div>
     
   )
