@@ -13,6 +13,7 @@ import IconPrivateWorkspace from './icon-privateworkspace.svg'
 import IconSwimmingpool from './icon-swimmingpool.svg'
 import IconWatchVideo from './icon-watchvideo.svg'
 import IconSearch from './icon-search.svg'
+import IconWifi from './icon-wifi.svg'
 
 export {
   IconBreakfast,
@@ -30,4 +31,5 @@ export {
   IconSwimmingpool,
   IconSearch,
   IconWatchVideo,
+  IconWifi
 }
