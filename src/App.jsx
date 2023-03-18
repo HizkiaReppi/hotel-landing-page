@@ -1,12 +1,11 @@
-import { Navbar } from "./components"
-
+import { Navbar, HeroSection } from "./components"
 const App = () => {
   return (
-    <>
+    <div>
       <Navbar />
-      <div>Hello World</div>
-    </>
+      <HeroSection/>
+    </div>
+    
   )
 }
-
 export default App

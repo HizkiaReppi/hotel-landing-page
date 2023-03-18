@@ -12,6 +12,7 @@ import IconPerson from './icon-person.svg'
 import IconPrivateWorkspace from './icon-privateworkspace.svg'
 import IconSwimmingpool from './icon-swimmingpool.svg'
 import IconWatchVideo from './icon-watchvideo.svg'
+import IconSearch from './icon-search.svg'
 
 export {
   IconBreakfast,
@@ -27,5 +28,6 @@ export {
   IconPerson,
   IconPrivateWorkspace,
   IconSwimmingpool,
+  IconSearch,
   IconWatchVideo,
 }
