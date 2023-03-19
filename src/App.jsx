@@ -3,8 +3,8 @@ import { Navbar, HeroSection, FacilitiesSection, TestimonialSection, LocationSec
 const App = () => {
   return (
     <div>
-      <Navbar />
-      <HeroSection/>
+      {/* <Navbar /> */}
+      {/* <HeroSection/> */}
       <FacilitiesSection/>
       <TestimonialSection/>
       <LocationSection/>

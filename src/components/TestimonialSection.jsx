@@ -32,7 +32,7 @@ const Testimonial = () => {
     return (
       <>
         <div className="flex max-md:flex-col">
-          <div className="testimonial-left my-16 mx-24 max-md:order-last max-md:bg-white max-md:rounded-xl max-md:px-10 max-md:mx-10 max-md:py-8 max-md:-mt-8">
+          <div className="testimonial-left my-16 mx-24 max-lg:mx-4 max-lg:my-3 max-md:order-last max-md:bg-white max-md:rounded-xl max-md:px-10 max-md:mx-10 max-md:py-8 max-md:-mt-8">
             <p className="relative max-md:text-sm !leading-[28px] text-[#555555]  ">{props.comment}
               <img className="absolute top-[0] left-[-6%]" src={IconQuatitationMarkOpen} alt="IconQuatitationOpen" />
               <img className="absolute bottom-[0] right-[-4%]" src={IconQuatitationMarkClosed} alt="IconQuatitationClosed" />
