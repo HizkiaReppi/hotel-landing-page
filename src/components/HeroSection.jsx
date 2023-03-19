@@ -9,8 +9,10 @@ import "react-datepicker/dist/react-datepicker.css";
 
 
 const HeroSection = () => {
+  const [location, setLocation] = useState(null);
   const [checkInDate, setCheckInDate] = useState(new Date());
   const [checkOutDate, setCheckOutDate] = useState(new Date());
+  const [roomFor, setRoomFor] = useState(null);
 
   const countryOptions= [
     { value: 'no-selected', label: 'Select...', isFixed: true },
@@ -36,6 +38,17 @@ const HeroSection = () => {
     { value: '2room3guests', label: '2 room, 3 guests' },
   ];
 
+  function onSearchButtonClick (event){
+    const result = {
+      location: location,
+      checkInDate: checkInDate,
+      checkOutDate: checkOutDate,
+      roomFor: roomFor,
+    }
+    
+    alert(JSON.stringify(result))
+  }
+
 
   return (
     <>
@@ -55,7 +68,7 @@ const HeroSection = () => {
             <img src={ImageHotel} alt="Hotel image"/>
           </div>
         </div>
-        <divc className="absolute right-0 left-0 mx-auto bottom-11 w-4/5">
+        <div className="absolute right-0 left-0 mx-auto bottom-11 w-4/5">
           <div className='hero-option relative bg-white rounded-[280px] flex justify-between'>
             <div className='flex justify-between p-6 w-4/5 pl-8 z-1'>
               <div className='hero-location flex justify-start w-1/5'>
@@ -68,8 +81,8 @@ const HeroSection = () => {
                   </div>
                   <div className='text-sm text-[#555555]'>
                     <Select
-                      id='ccc'
-                      inputId='country-selector'
+                      id='location-selector'
+                      inputId='location-selector'
                       className="basic-single"
                       classNamePrefix="select"
                       defaultValue={countryOptions[0]}
@@ -79,6 +92,7 @@ const HeroSection = () => {
                       isSearchable={true}
                       name="color"
                       options={countryOptions}
+                      onChange={(choice) => setLocation(choice)}
                     />
                   </div>
                 </div>
@@ -122,8 +136,8 @@ const HeroSection = () => {
                   </div>
                   <div className='text-sm text-[#555555]'>
                     <Select
-                      id='ccc'
-                      inputId='country-selector'
+                      id='room-selector'
+                      inputId='room-selector'
                       className="basic-single"
                       classNamePrefix="select"
                       defaultValue={roomOptions[0]}
@@ -133,19 +147,20 @@ const HeroSection = () => {
                       isSearchable={true}
                       name="color"
                       options={roomOptions}
+                      onChange={(choice) => setRoomFor(choice)}
                     />
                   </div>
                 </div>
               </div>
             </div>
-            <div className='hero-search flex justify-start relative z-3'>
-              <Button addClass={'!rounded-[280px] flex justify-start items-center text-white text-xl !px-11 w-[300px]'}>
+            <div className='hero-search flex justify-start relative z-3' onClick={onSearchButtonClick}>
+              <Button addClass={'!rounded-[280px] flex justify-start items-center text-white text-xl !px-11'}>
                 <img src={IconSearch} className="mr-2" alt="Search Icon" />
                 Search
               </Button>
             </div>
           </div>
-        </divc>
+        </div>
       </div>      
     </>
   )

@@ -66,8 +66,8 @@ const Testimonial = () => {
     <>
       <div className="testimonial-section container mx-auto bg-[#FAFAFA] mt-32 rounded-2xl">
         <Carousel defaultControlsConfig={nukaCarouselControlConfig}>
-          {dynamicTestimonialsData.map(data => {
-            return <Testimonial {...data} />
+          {dynamicTestimonialsData.map((data, index) => {
+            return <Testimonial {...data} key={index} />
           })}
         </Carousel>
       </div>
