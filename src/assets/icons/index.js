@@ -15,6 +15,8 @@ import IconWatchVideo from './icon-watchvideo.svg'
 import IconSearch from './icon-search.svg'
 import IconQuatitationMarkOpen from './icon-quatitation-mark-open.svg'
 import IconQuatitationMarkClosed from './icon-quatitation-mark-closed.svg'
+import IconPrevCarouselDisabled from './icon-prevcarouseldisabled.svg'
+import IconNextCarouselEnabled from './icon-nextcarouselenabled.svg'
 
 export {
   IconBreakfast,
@@ -33,5 +35,7 @@ export {
   IconSearch,
   IconWatchVideo,
   IconQuatitationMarkOpen,
-  IconQuatitationMarkClosed
+  IconQuatitationMarkClosed,
+  IconPrevCarouselDisabled,
+  IconNextCarouselEnabled
 }
