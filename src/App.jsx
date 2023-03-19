@@ -1,5 +1,5 @@
 
-import { Navbar, HeroSection, FacilitiesSection, TestimonialSection } from "./components"
+import { Navbar, HeroSection, FacilitiesSection, TestimonialSection, LocationSection } from "./components"
 const App = () => {
   return (
     <div>
@@ -7,6 +7,7 @@ const App = () => {
       <HeroSection/>
       <FacilitiesSection/>
       <TestimonialSection/>
+      <LocationSection/>
     </div>
     
   )
