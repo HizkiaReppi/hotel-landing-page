@@ -60,7 +60,7 @@ const Facilities = () => {
 
   return (
     <>
-      <div className="container mx-auto max-md:mx-10 flex mt-36 max-md:flex-col">
+      <div className="container md:mx-auto max-md:mx-10 flex mt-36 max-md:flex-col">
         <div className="facilities-left w-2/6 h-full pr-8 max-md:w-full">
           <h2 className="leading-[50px] text-[40px] font-semibold max-md:text-2xl">We do our best facilities provide you</h2>
           <p className="mt-5 text-[16ox] text-[#555555] leading-7 max-md:hidden">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy </p>
