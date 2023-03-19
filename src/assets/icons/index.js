@@ -13,6 +13,10 @@ import IconPrivateWorkspace from './icon-privateworkspace.svg'
 import IconSwimmingpool from './icon-swimmingpool.svg'
 import IconWatchVideo from './icon-watchvideo.svg'
 import IconSearch from './icon-search.svg'
+import IconQuatitationMarkOpen from './icon-quatitation-mark-open.svg'
+import IconQuatitationMarkClosed from './icon-quatitation-mark-closed.svg'
+import IconPrevCarouselDisabled from './icon-prevcarouseldisabled.svg'
+import IconNextCarouselEnabled from './icon-nextcarouselenabled.svg'
 import IconWifi from './icon-wifi.svg'
 
 export {
@@ -31,5 +35,9 @@ export {
   IconSwimmingpool,
   IconSearch,
   IconWatchVideo,
+  IconQuatitationMarkOpen,
+  IconQuatitationMarkClosed,
+  IconPrevCarouselDisabled,
+  IconNextCarouselEnabled,
   IconWifi
 }
