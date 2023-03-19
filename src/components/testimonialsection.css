@@ -18,10 +18,24 @@
 
 .nuka-next-button {
   position: relative;
-    right: -10px;
+  right: -10px;
+      
+
 }
 
 .nuka-prev-button {
   position: relative;
     left: -10px;
+}
+
+
+@media not all and (min-width: 768px) {
+  .nuka-next-button {
+    right: 10px
+  }
+
+  .nuka-prev-button {
+    left: 10px;
+  }
+
 }
