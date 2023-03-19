@@ -12,3 +12,71 @@
   border-left: 2px solid #E8E8E8;
   height: 100%;
 }
+
+
+/* react select style */
+.basic-single .select__control{
+  border: none !important;
+  /* margin-left: -20px;
+  padding-left: 10px;
+  padding-right: 10px; */
+  min-height: 14px;
+}
+
+.basic-single .select__control:focus {
+  border: none !important;
+  /* margin-left: -20px;
+  padding-left: 10px;
+  padding-right: 10px; */
+}
+
+.basic-single .select__control--is-focused {
+  border: none !important;
+  min-height: 14px;
+}
+
+.basic-single .select__control--menu-is-open {
+  border: none !important;
+  min-height: 14px;
+}
+
+.basic-single .select__dropdown-indicator {
+  display: none !important;
+}
+
+.basic-single .select__indicator-separator {
+  display: none !important;
+}
+
+.basic-single .select__clear-indicator {
+  display: none !important;
+}
+
+.basic-single .select__value-container {
+  margin-left: -10px;
+  /* padding-right: 20px; */
+}
+
+.basic-single .select__clear-indicator {
+  margin-right: -10px;
+}
+
+.select__menu {
+  width: 300px !important;
+}
+
+
+/* react datepicker */
+.react-datepicker-wrapper{
+  /* width: 50% !important; */
+}
+
+
+.react-datepicker-wrapper .react-datepicker__input-container input{
+  width: 100% !important;
+}
+
+
+.react-datepicker-wrapper .react-datepicker-ignore-onclickoutside{
+  width: 50% !important;
+}
