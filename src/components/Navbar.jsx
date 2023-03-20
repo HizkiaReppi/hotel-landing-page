@@ -7,7 +7,7 @@ const Navbar = () => {
         <h1>Logo</h1>
       </div>
       <div>
-        <ul className="flex gap-8">
+        <ul className="flex gap-8 max-sm:hidden">
           <li><a href="#booking">Booking</a></li>
           <li><a href="#facilities">Facilities</a></li>
           <li><a href="#about">About Us</a></li>
