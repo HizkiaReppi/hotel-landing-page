@@ -8,3 +8,4 @@ import PopularHotelSection from "./PopularHotelSection"
 import HistorySection from "./HistorySection"
 
 export { Navbar, HeroSection, FacilitiesSection, TestimonialSection, LocationSection, FooterSection, PopularHotelSection, HistorySection }
+
