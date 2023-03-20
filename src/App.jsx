@@ -1,10 +1,11 @@
 
-import { Navbar, HeroSection, FacilitiesSection, TestimonialSection, LocationSection, FooterSection } from "./components"
+import { Navbar, HeroSection, FacilitiesSection, TestimonialSection, LocationSection, FooterSection, PopularHotelSection } from "./components"
 const App = () => {
   return (
     <div>
       <Navbar />
       <HeroSection/>
+      <PopularHotelSection/>
       <FacilitiesSection/>
       <TestimonialSection/>
       <LocationSection/>
