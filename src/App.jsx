@@ -1,5 +1,5 @@
 
-import { Navbar, HeroSection, FacilitiesSection, TestimonialSection, LocationSection, FooterSection, PopularHotelSection } from "./components"
+import { Navbar, HeroSection, FacilitiesSection, TestimonialSection, LocationSection, FooterSection, PopularHotelSection, HistorySection } from "./components"
 const App = () => {
   return (
     <div>
@@ -7,6 +7,7 @@ const App = () => {
       <HeroSection/>
       <PopularHotelSection/>
       <FacilitiesSection/>
+      <HistorySection/>
       <TestimonialSection/>
       <LocationSection/>
       <FooterSection/>
