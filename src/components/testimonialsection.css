@@ -1,0 +1,41 @@
+/* next task if possible: change '>' '<' to font like wingdings */
+
+.nuka-pagging-dots {
+  display: none !important;
+}
+
+.nuka-next-button, .nuka-prev-button {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: white !important;
+  box-shadow: 4px 2px 7px rgba(0, 35, 20, 0.03) !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #24AB70 !important;
+}
+
+.nuka-next-button {
+  position: relative;
+  right: -10px;
+      
+
+}
+
+.nuka-prev-button {
+  position: relative;
+    left: -10px;
+}
+
+
+@media not all and (min-width: 768px) {
+  .nuka-next-button {
+    right: 10px
+  }
+
+  .nuka-prev-button {
+    left: 10px;
+  }
+
+}
