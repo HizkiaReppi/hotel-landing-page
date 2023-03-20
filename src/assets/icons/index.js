@@ -18,6 +18,8 @@ import IconQuatitationMarkClosed from './icon-quatitation-mark-closed.svg'
 import IconPrevCarouselDisabled from './icon-prevcarouseldisabled.svg'
 import IconNextCarouselEnabled from './icon-nextcarouselenabled.svg'
 import IconWifi from './icon-wifi.svg'
+import IconStar from './icon-star.svg'
+import IconStarDisable from './icon-star-disable.svg'
 
 export {
   IconBreakfast,
@@ -39,5 +41,7 @@ export {
   IconQuatitationMarkClosed,
   IconPrevCarouselDisabled,
   IconNextCarouselEnabled,
-  IconWifi
+  IconWifi,
+  IconStar,
+  IconStarDisable
 }

@@ -1,0 +1,9 @@
+.vertical-line {
+  border-left: 2px solid #E8E8E8;
+  height: 100%;
+}
+
+.icon-star-disable{
+  color: white;
+  background: white;
+}

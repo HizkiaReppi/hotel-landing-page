@@ -52,10 +52,10 @@ const HeroSection = () => {
 
   return (
     <>
-      <div className='hero-section md:container bg-[#f6fcf9] relative md:mx-auto mt-8'>
+      <div className='hero-section md:container bg-[#f6fcf9] max-md:pb-0 xl:pb-0 pb-11 relative md:mx-auto mt-8'>
         <div className='columns-2 max-md:columns-1'>
           <div className='hero-left p-14'>
-            <h1 className='hero-title leading-[80px] text-6xl font-semibold mt-3 max-md:text-3xl max-md:leading-[43px]'>Find your perfect place to stay</h1>
+            <h1 className='hero-title md:text-4xl md:leading-[48px] lg:leading-[80px] lg:text-6xl font-semibold mt-3 text-3xl leading-[48px]'>Find your perfect place to stay</h1>
             <p className='hero-description text-xl text-[#555555] leading-8 mt-8 max-md:text-lg max-md:leading-6'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod iusto illum aliquid delectus accusantium facilis culpa </p>
             <div className='flex justify-start items-center mt-12'>
               <button className='hero-cta h-10 w-10 bg-white rounded-[50%] mr-4'>
@@ -68,15 +68,15 @@ const HeroSection = () => {
             <img src={ImageHotel} alt="Hotel image"/>
           </div>
         </div>
-        <div className="absolute right-0 left-0 mx-auto bottom-11 w-4/5">
+        <div className="absolute right-0 left-0 mx-auto max-md:bottom-11 xl:bottom-11 xl:w-4/5 ">
           <div className='hero-option relative bg-white rounded-[280px] flex justify-between max-md:flex-col max-md:rounded-3xl max-md:pt-6'>
-            <div className='flex justify-between p-6 w-4/5 pl-8 z-1 max-md:flex-col max-md:w-full'>
+            <div className='flex justify-between p-6 w-4/5 pl-8 z-1 max-md:flex-col max-md:w-full max-md:gap-2'>
               <div className='hero-location flex justify-start w-1/5 max-md:w-full'>
                 <div>
                   <img src={IconLocation} className='mt-1 mr-2' alt="Location Icon" />
                 </div>
                 <div className='max-md:w-full'>
-                  <div className='text-xl'>
+                  <div className='lg:text-xl '>
                     Location
                   </div>
                   <div className='text-sm text-[#555555]'>
@@ -103,7 +103,7 @@ const HeroSection = () => {
                   <img src={IconCheckinout} className='mt-1 mr-5 max-md:mr-2' alt="CheckIn Icon" />
                 </div>
                 <div className='max-md:w-full'>
-                  <div className='text-xl'>
+                  <div className='lg:text-xl'>
                     Check In
                   </div>
                   <div className='text-sm mt-[6px] text-[#555555]'>
@@ -117,7 +117,7 @@ const HeroSection = () => {
                   <img src={IconCheckinout} className='mt-1 mr-5 max-md:mr-2' alt="CheckOut Icon" />
                 </div>
                 <div className='max-md:w-full'>
-                  <div className='text-xl '>
+                  <div className='lg:text-xl '>
                     Check Out
                   </div>
                   <div className='text-sm mt-[6px] text-[#555555]'>
@@ -131,7 +131,7 @@ const HeroSection = () => {
                   <img src={IconPerson} className='mt-1 mr-2' alt="Rooms For Icon" />
                 </div>
                 <div className='max-md:w-full'>
-                  <div className='text-xl'>
+                  <div className='lg:text-xl'>
                     Rooms for
                   </div>
                   <div className='text-sm text-[#555555]'>
